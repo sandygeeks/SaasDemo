@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>80be0fb6-b024-40bd-8f81-5142643d90d5</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.8">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.6" />
+		<PackageReference Include="NSwag.AspNetCore" Version="13.16.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SAAS.Infrastructure.PostGreSql\SAAS.Infrastructure.PostGreSql.csproj" />
+		<ProjectReference Include="..\SAAS.Infrastructure.SqlServer\SAAS.Infrastructure.SqlServer.csproj" />
+		<ProjectReference Include="..\SAAS.Infrastructure\SAAS.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>
