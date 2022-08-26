@@ -23,6 +23,7 @@
     <ProjectReference Include="..\Laboratory.Core\Laboratory.Core.csproj" />
     <ProjectReference Include="..\Laboratory.Infrastructure.PostGresMigration\Laboratory.Infrastructure.PostGresMigration.csproj" />
     <ProjectReference Include="..\Laboratory.Infrastructure.SqlServerMigration\Laboratory.Infrastructure.SqlServerMigration.csproj" />
+    <ProjectReference Include="..\Laboratory.Infrastructure\Laboratory.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

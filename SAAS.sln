@@ -35,7 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKerne
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedKernel", "SharedKernel\SharedKernel\SharedKernel.csproj", "{BB73CE42-11FA-4DE9-A882-BF0C94E60853}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratory.Infrastructure", "Laboratory.Infrastructure\Laboratory.Infrastructure.csproj", "{2A410B11-C683-406A-8707-C076E300E5E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratory.Infrastructure", "Laboratory\Laboratory.Infrastructure\Laboratory.Infrastructure.csproj", "{2A410B11-C683-406A-8707-C076E300E5E5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratory.Web", "Laboratory\Laboratory.Web\Laboratory.Web.csproj", "{E9AC24E5-91F8-48DA-8B8A-EF0BAF2D7667}"
 EndProject

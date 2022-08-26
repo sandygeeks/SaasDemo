@@ -14,7 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <ProjectReference Include="..\Laboratory\Laboratory.Core\Laboratory.Core.csproj" />
+    <ProjectReference Include="..\..\SharedKernel\SharedKernel\SharedKernel.csproj" />
+    <ProjectReference Include="..\Laboratory.Core\Laboratory.Core.csproj" />
   </ItemGroup>
+
+
 
 </Project>

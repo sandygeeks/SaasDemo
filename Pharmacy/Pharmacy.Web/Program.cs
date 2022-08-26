@@ -28,6 +28,7 @@ builder.Services.AddMediatR(System.Reflection.Assembly.GetExecutingAssembly());
 
 // Infrastructure
 builder.Services.AddScoped<ITenantService, TenantService>();
+builder.Services.AddDbContext<PharmacyDbContext>();
 builder.Services.AddScoped<PharmacyDbContextFactory>();
 builder.Services.AddScoped<PharmacyDbContext>(sp =>
     sp.GetRequiredService<PharmacyDbContextFactory>().CreateDbContext()
