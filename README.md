@@ -97,6 +97,10 @@ we need to add header to the request with key as '**tenant**' and value as **Ten
 You can use the openapi document created by swagger directly in postman to browse the apis.
 
 
+## Author
+Sanjit Raj Shakya · https://sanjitrajshakya.com.np
+
+
 # Thank you!
 
 
